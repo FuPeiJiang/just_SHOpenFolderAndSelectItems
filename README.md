@@ -13,3 +13,11 @@ HKEY_CLASSES_ROOT\Folder\shell -> (default)<br>
 `AnythingYouWant`<br>
 HKEY_CLASSES_ROOT\Folder\shell\AnythingYouWant\command -> (default)<br>
 `"C:\AutoHotkey_2.0-beta.3\AutoHotkey64.exe" "C:\for registry (single).ah2" "%1 "`
+
+note:<br>
+HKEY_CLASSES_ROOT\Drive\shell -> (default)<br>
+and<br>
+HKEY_CLASSES_ROOT\Directory\shell -> (default)<br>
+will take priority over:<br>
+HKEY_CLASSES_ROOT\Folder\shell -> (default)<br>
+if you have them set<br>
