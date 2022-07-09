@@ -1,4 +1,4 @@
-to describe the project, need better name to replace `just_SHOpenFolderAndSelectItems`<br>
+need better name than/to replace `just_SHOpenFolderAndSelectItems`, to describe the project<br>
 
 ___
 
