@@ -5,10 +5,10 @@ SendMode "Input" ; Recommended for new scripts due to its superior speed and rel
 SetWorkingDir A_ScriptDir ; Ensures a consistent starting directory.
 
 
-actual_SHOpenFolderAndSelectItems("C:", ["a.txt"])
-; actual_SHOpenFolderAndSelectItems("C:\dir with spaces\", ["test.ahk", "test3.ah2"])
+test_SHOpenFolderAndSelectItems("C:", ["a.txt"])
+; test_SHOpenFolderAndSelectItems("C:\dir with spaces\", ["test.ahk", "test3.ah2"])
 
-actual_SHOpenFolderAndSelectItems(dir_fullPath, childNamesArr) {
+test_SHOpenFolderAndSelectItems(dir_fullPath, childNamesArr) {
     DllCall("shell32\SHParseDisplayName"
         ,"Wstr",dir_fullPath
         ,"Uint",0

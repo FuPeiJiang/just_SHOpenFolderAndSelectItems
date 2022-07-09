@@ -19,7 +19,7 @@ SetWorkingDir A_ScriptDir ; Ensures a consistent starting directory.
 ; SubStr(A_Args[1], 1, -1)
 
 ; or else
-; -> actual_SHOpenFolderAndSelectItems("C:", ["a.txt"])
+; -> test_SHOpenFolderAndSelectItems("C:", ["a.txt"])
 ; will fail
 
 dir_fullPath:=SubStr(A_Args[1], 1, -1)
